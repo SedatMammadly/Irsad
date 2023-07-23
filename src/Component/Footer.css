@@ -1,0 +1,141 @@
+.footer {
+    margin-top: 86px;
+    background: #18181a;
+}
+
+.footer-line{
+    background: #40b659;
+    font-size: 1rem;
+    position: relative;
+    height: 10px;
+
+}
+.footer-line::before{
+    content: '';
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    background: #fff;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30%;
+    z-index: 1;
+}
+.footer-line::after{
+    content: "";
+    background: #f6861f;
+    font-size: 1rem;
+    position: absolute;
+    height: 10px;
+    width: 70%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.footer-items{
+    padding: 70px 15px;
+    margin: 0 95px;
+}
+.footer-qr-code{
+    padding: 40px 54px 32px;
+    border: 1px solid #545454;
+    width: 268px;
+    height: 320px;
+}
+.footer-qr-code img{
+width: 160px;
+height: 160px;
+margin-bottom: 20px;
+}
+.footer-qr-code p{
+    font-size: 14px;
+    color: #95979c;
+    line-height: 20px;
+    text-align: center;
+}
+.footer-menu-head{
+    font-size: 24px;
+    margin-bottom: 36px;
+    color: #f8f8f8;
+}
+.footer-menu-items li{
+    padding-bottom: 2px;
+    color: #95979c;
+    font-size: 18px;
+    margin-bottom: 16px;
+    line-height: 25px;
+}
+.footer-menu-contacts{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+}
+.footer-menu-contacts img{
+    width:88px;
+    height: 26px;
+}
+.footer-menu-contacts i{
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #585858;
+    border-radius: 50%;
+    padding: 14px;
+    margin: 0 16px 0 32px;
+}
+.footer-menu-contacts p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-social-media span{
+    margin-bottom:32px;
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-icons i{
+    color: #c2c5ca;
+    font-size: 24px;
+}
+.footer-bottom{
+    margin-top: 80px;
+}
+.footer-bottom-items{
+    display: flex;
+    align-items: center !important;
+}
+.footer-bottom-logo img{
+    width: 90px;
+    height: 40px;
+}
+.footer-bottom-author span{
+color: #95979c;
+    font-size: 14px;
+}
+.author-signature{
+    display: flex;
+}
+.author-signature img{
+    width: 19px;
+    height: 18px;
+    margin: 0 15px;
+}
+.author-signature span{
+    color: #95979c;
+    font-size: 14px;
+}

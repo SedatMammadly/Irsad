@@ -1,0 +1,16 @@
+.Header {
+    position: relative;
+    z-index: 15;
+    background-color: #fff;
+  }
+
+  .blur {
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(35, 45, 64, .6);
+    z-index: 9;
+  }
+  

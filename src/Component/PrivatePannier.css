@@ -1,0 +1,164 @@
+
+.Private-Pannier-content{
+    margin: 0 100px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 110px;
+}
+.links li{
+    list-style: inside;
+}
+.links a{
+    color: #ccc;
+    text-decoration: none;
+}
+.links li a{
+    text-decoration: none;
+    color: #000;
+}
+.Pannier1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    border-color: #f7f7f9;
+    padding: 11px 20px;
+}
+.Pannier1 h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.delete-count{
+    color: #5b5f66;
+    font-size: 18px;
+    border-color: #f7f7f9;
+    padding: 11px 20px;
+    background: #f7f7f9;
+}
+.delete-count i{
+    margin-right: 8px;
+}
+.Private-Pannier-Content-Items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.empty-pannier{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.pannier-img img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-right: 40px;
+}
+.Pannier-items{
+    border: 1px solid #ccc;
+    border-radius: 23px 8px 0 0;
+    width: 900px;
+}
+.Pannier-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:45px;
+}
+.pannier-content-top{
+    display: flex;
+    justify-content: space-between;
+    width: 507px;
+}
+.pannier-discount2{
+    display: flex;
+    margin-bottom: 20px;
+    width: 324px;
+}
+
+.pannier-content-alt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+}
+.Private-pannier-content-left-items{
+    position: relative;
+}
+.Private-pannier-content-left-item{
+    padding: 28px 24px;
+    border: 2px solid #40b659;
+    border-radius: 1.2rem;
+    width: 310px;
+    height: 294px;
+    position: sticky;
+    top: 0
+}
+.content-left-head h2{
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.Private-pannier-content-left-item dl{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 20px;
+    height: 90px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #95979c;
+    margin-bottom: 20px;
+}
+.Private-pannier-content-left-item dt{
+    color: #95979c;
+    font-weight: 400;
+    width: 43%;
+}
+ .pannier-discount, .pannier-offer{
+display: inline-block;
+  font-size: 12px;
+  margin: 10px 8px 0 0;
+  padding: 5px 12px;
+  border-radius: 5px;
+} 
+.pannier-discount {
+  background: rgba(246, 134, 31, .07);
+  color: #f6861f;
+  border: none;
+} 
+
+.pannier-offer {
+  background: #1743df12;
+  color: #1743df;
+  border: none;
+}
+.total-price{
+    margin-bottom: 33px;
+}
+.total-price span:nth-child(1){
+ color: #40b659;
+ font-size: 18px;
+}
+.total-price span:nth-child(2){
+   font-size: 20px;
+   font-weight: 600;
+}
+.content-left-button{
+    background: #40b659;
+    padding: 11px 20px;
+    border-radius: 7px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content-left-button:hover{
+    color: #40b659;
+    background: #fff;
+    border: 1px solid #40b659;
+}
